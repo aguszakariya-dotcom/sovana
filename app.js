@@ -1,24 +1,31 @@
-const chalk = require('chalk');
-const diagrams = require('./diagram');
-
-// const main = async() => {
-//     const nama = await diagram.tulisPertanyaan('masukkan nama customer');
-//     const style = await diagram.tulisPertanyaan('masukkan style customer');
-//     const gambar = await diagram.tulisPertanyaan('masukkan nama gambar');
-
-//     simpanDiagram(nama, style, gambar);
-// }
-
-// main();
-
-// batas
+const yargs = require("yargs");
+const chalk = require("chalk");
+const diagrams = require("./diagram");
 
 
-const main = async() => {
-    const nama = await diagrams.tulisPertanyaan('Masukkan nama customer : ');
-    const style = await diagrams.tulisPertanyaan('Masukkan nama Style : ');
-    const gambar = await diagrams.tulisPertanyaan('Masukkan nama gambar : ');
-
-    diagrams.simpanDiagram(nama, style, gambar);
-}
-main();
+yargs.command({
+    command: "add",
+    describe: "Add new diagram",
+    builder: {
+        nama: {
+            describe: "Nama customer",
+            demandOption: true,
+            type: "string"
+        },
+        style: {
+            describe: "Style customer",
+            type: "string",
+            demandOption: true,
+        },
+        gambar: {
+            describe: "Gambar diagram",
+            demandOption: true,
+            type: "string"
+        },
+    },
+    handler: function (argv) {
+        diagrams.simpanDiagram(argv.nama, argv.style, argv.gambar);
+        
+    },
+});
+yargs.parse();
