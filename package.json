@@ -1,0 +1,23 @@
+{
+  "name": "diagram",
+  "version": "1.0.0",
+  "description": "web diagram",
+  "main": "index.js",
+  "scripts": {
+    "test": "yess boss!"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aguszakariya-dotcom/diagram.git"
+  },
+  "keywords": [
+    "node",
+    "js"
+  ],
+  "author": "zack77",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aguszakariya-dotcom/diagram/issues"
+  },
+  "homepage": "https://github.com/aguszakariya-dotcom/diagram#readme"
+}

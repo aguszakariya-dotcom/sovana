@@ -1,0 +1,35 @@
+me: "hello how are you?"
+copilot: "I'm fine, thanks!"
+me: "what's up?"
+copilot: "I'm fine, thanks!"
+me: "how are you?"
+copilot: "I'm fine, thanks!"
+
+
+me: "what is node js?"
+copilot: "node js is a javascript runtime environment"
+me: "how is setup node js?"
+copilot: "node js is a javascript runtime environment"
+me: "are you robot?"
+copilot: "I'm not a robot"
+
+
+me: "how commend install nodemon?"
+copilot: "npm install -g nodemon"
+ me: how commit to github?
+copilot: "git commit -m 'message'"
+me: to auto detect my identity on repository?
+copilot: "git config --global user.name 'your name'"
+me: how push to github?
+copilot: "git push origin master"
+me: error: failed to push some refs to 'https://github.com/aguszakariya-dotcom/diagram.git'
+me: how to push to github?
+copilot: "git push origin master"
+me: how to install git cli?
+copilot: "npm install -g git-cli"
+me : how git login?
+
+me: who is malikkurosaki?
+copilot: "malikkurosaki is a programmer"
+
+
