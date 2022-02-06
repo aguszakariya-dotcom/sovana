@@ -13,10 +13,8 @@ copilot: "node js is a javascript runtime environment"
 me: "are you robot?"
 copilot: "I'm not a robot"
 
-me: who is jokowi?
-copilot: jokowi is a president of indonesia
- me: how git commit?
-copilot: git commit is a version control system
+me: who is malikkurosaki?
+copilot: malikkurosaki is a human
 
 me: git branch -M main && git add . && git commit -m "aha" && git push -f origin main
 copilot: git branch -M main && git add . && git commit -m "aha" && git push -f origin main
