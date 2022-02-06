@@ -2,8 +2,9 @@
   "name": "diagram",
   "version": "1.0.0",
   "description": "web diagram",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "start": "nodemon app.js",
     "test": "yess boss!"
   },
   "repository": {
@@ -19,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/aguszakariya-dotcom/diagram/issues"
   },
-  "homepage": "https://github.com/aguszakariya-dotcom/diagram#readme"
+  "homepage": "https://github.com/aguszakariya-dotcom/diagram#readme",
+  "dependencies": {
+    "rainbow": "^2.4.1",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
