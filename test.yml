@@ -24,3 +24,5 @@ copilot: node app add --nama="Flo" --style="M11" --gambar="m11.jpg"
 
 me: how to push github?
 copilot: git push -f origin main
+me: how to git commit?
+copilot: git commit -m "aha"
