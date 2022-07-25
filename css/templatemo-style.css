@@ -316,23 +316,7 @@ nav {
 }
 
 
-.portfolio-item img {
-  width: 100%;
-  overflow: hidden;
-}
 
-.portfolio-item .thumb {
-  position: relative;
-}
-
-
-.portfolio-item .hover-effect .hover-content {
-    position: absolute;
-    text-align: left;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-}
 
 
 .full-screen-portfolio .portfolio-item h1 {
@@ -604,10 +588,6 @@ footer a:hover {
   position: relative;
 }
 
-.masonry .item {
-  display: inline-block;
-  float: left;
-}
 
 .masonry .first-item {
   margin-bottom: -0.5px;
