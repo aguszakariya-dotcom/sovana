@@ -4,6 +4,12 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   		<title>Main Project (.Y.) SOVANA GARMEN</title>
+        <!-- link bo0tstrap 5.2 -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.2.0/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <!-- link fontawesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <!-- link css -->
+        <!-- <link rel="stylesheet" href="css/style.css"> -->
 <!-- 
 
 Highway Template
@@ -24,6 +30,34 @@ https://templatemo.com/tm-520-highway
         <link href="https://fonts.googleapis.com/css?family=Kanit:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <style>
+            .parallax {
+            /* The image used */
+            background-image: url("img/hitam.jpg");
+            /* Set a specific height */
+            min-height: 350px;
+                /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            }
+            .parallax2 {
+            /* The image used */
+            background-image: url("img/putih.png");
+            /* Set a specific height */
+            min-height: 350px;
+                /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            }
+            #menu {
+                min-height: 500px;
+            }
+
+        </style>
     </head>
 
 <body>
@@ -47,19 +81,54 @@ https://templatemo.com/tm-520-highway
                     <br>
                     <br>
                     <br>
-                    <a class="scrollTo" data-scrollTo="portfolio" href="#"><img src="img/scroll-icon.png" alt=""></a>
+                    <a class="scrollTo mt-5" data-scrollTo="menu" href="#"><img src="img/scroll-icon.png" alt=""></a>
                 </div>    
             </div>
         </div>
         <video autoplay="" loop="" muted>
-        	<source src="highway-loop.mp4" type="video/mp4" />
+        	<source src="Openingsovana.m4v" type="video/mp4" />
         </video>
     </div>
-    <div class="section" id="">
-         
+    <!-- parallax -->
+    <div class="parallax"></div>
+    <!-- menu -->
+    <div class="section mt-5" id="menu">
+        <div class="container mt-5 pt-5 pb-5">
+            <div class="row justify-content-center text-center pt-5">
+                <div class="col-md-12 col-lg-3">
+                    <div class="justify-content-center text-center">
+                        <img src="img/latest-speed-B.svg" alt="" width="100">
+                        <br>
+                        <button class="btn btn-outline-primary mt-5"> Timeline Produksi</button>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-3">
+                    <div class="justify-content-center text-center">
+                        <img src="img/moststable-B.svg" alt="" width="100">
+                        <br>
+                        <button class="btn btn-outline-primary mt-5"> Data Produksi</button>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-3">
+                    <div class="justify-content-center text-center">
+                        <img src="img/OneClickinstall-B.svg" alt="" width="100">
+                        <br>
+                        <button class="btn btn-outline-primary mt-5"> Data Sample</button>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-3">
+                    <div class="justify-content-center text-center">
+                        <img src="img/ssd-drives-B-1.svg" alt="" width="100">
+                        <br>
+                        <button class="btn btn-outline-primary mt-5"> Pengajuan Salary</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+    <div class="parallax2"></div>
 
-    <div class="full-screen-portfolio" id="portfolio">
+    <!-- <div class="full-screen-portfolio" id="portfolio">
         <div class="container-fluid">
             <div class="col-md-4 col-sm-6">
                 <div class="portfolio-item">
@@ -197,15 +266,13 @@ https://templatemo.com/tm-520-highway
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
 
     <footer>
         <div class="container-fluid">
             <div class="col-md-12">
-                <p>Copyright &copy; 2018 Company Name 
-    
-    | Designed by TemplateMo</p>
+                <p>Copyright &copy; 2018 SOVANA GARMEN | Designed by zack77</p>
             </div>
         </div>
     </footer>
@@ -292,7 +359,8 @@ https://templatemo.com/tm-520-highway
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
-    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
     
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
