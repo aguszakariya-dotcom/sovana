@@ -21,3 +21,6 @@ copilot: git branch -M main && git add . && git commit -m "aha" && git push -f o
 
 me: node app add --nama="Flo" --style="M11" --gambar="m11.jpg"
 copilot: node app add --nama="Flo" --style="M11" --gambar="m11.jpg"
+
+me: how to push github?
+copilot: git push -f origin main
