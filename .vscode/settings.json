@@ -1,0 +1,15 @@
+{
+    "emmet.showSuggestionsAsSnippets": true,
+    "intelephense.phpdoc.classTemplate": {
+    
+        "summary": "$1",
+        "tags": [
+            "@package ${1:$SYMBOL_NAMESPACE}"
+        ]
+    },
+    "auto-rename-tag.activationOnLanguage": [
+
+        "*"
+    ],
+    "intelephense.phpdoc.useFullyQualifiedNames": true
+}
