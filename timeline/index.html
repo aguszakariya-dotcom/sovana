@@ -16,17 +16,37 @@
     <title>Document</title>
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+    .parallax {
+        /* The image used */
+        background-image: url("hitam.jpg");
+        /* Set a specific height */
+        min-height: 460px;
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .atas {
+        padding-top: 100px;
+        text-align: center;
+    }
+    </style>
 </head>
 <body>
     <!-- Nav bootstrap 5.2 float right -->
-    <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: #000902EF">
-        <div class="container">
-            <a class="navbar-brand" href="https://sovanabali.my.id/"><img src="../img/logo-hitam.png" alt="SOVANA" height="40"></a>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #060000F7">
+        <div class="container ">
+            <a class="navbar-brand" href="http://sovanabali.my.id/"><img src="../img/logo-hitam.png" alt="SOVANA" height="40"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://sovanabali.my.id/">Home</a>
+                    </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Timeline <span class="sr-only">(current)</span></a>
                     </li>
@@ -39,13 +59,18 @@
     </nav>
     <!-- end nav -->
     <!-- jumbotron bootstrap 5.2 -->
-    <div class="">
+    <div class="atas" id="timeline">
         
                 <!-- iframe https://data.becik.my.id/link/timeline.php -->
-        <iframe src="https://produksi.becik.my.id/timeline.php" width="100%" height="1080px" frameborder="0"></iframe>
+        <iframe src="https://produksi.becik.my.id/timeline.php" width="100%" height="900px" frameborder="0"></iframe>
     </div>
 
+    <div class="parallax mb-5"></div>
 
+    <div class="mb-5 atas" id="produksi">
+        <!-- iframe https://produksi.becik.my.id/produksi.php -->
+        <iframe src="https://produksi.becik.my.id/produksi.php" width="100%" height="900px" frameborder="0"></iframe>
+    </div>
     <!-- script bootstrap 5.2 -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
